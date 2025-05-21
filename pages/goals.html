@@ -13,8 +13,9 @@
         <a href="./about.html">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="./places.html">PLACES</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="./goals.html">GOALS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./books.html">BOOKS</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="./map.html">MAP</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <label for="booking"></label>
+        <label for="booking"></label>
         <select id="booking" onchange="location = this.value;">
             <option value="">BOOKING</option>
             <option value="./flight.html">Flight</option>
@@ -26,92 +27,433 @@
     <hr>
     <h2>Select States You Want to Visit:</h2>
 
-<form>
-    <input type="checkbox" id="bihar" name="east" value="Bihar">
-    <label for="bihar">Bihar</label><br>
+    <form>
+        <input type="checkbox" id="bihar" name="northeast" value="bihar ">
+        <label for="bihar"><b><u>bihar</u></b></label><br>
+        <ul>
+            <li><input type="checkbox" id="bodhGaya"> <label for="bodhGaya">Bodh Gaya</label></li>
+            <li><input type="checkbox" id="nalanda"> <label for="nalanda">Nalanda</label></li>
+            <li><input type="checkbox" id="rajgir"> <label for="rajgir">Rajgir</label></li>
+            <li><input type="checkbox" id="patna"> <label for="patna">Patna</label></li>
+            <li><input type="checkbox" id="vaishali"> <label for="vaishali">Vaishali</label></li>
+            <li><input type="checkbox" id="vikramshila"> <label for="vikramshila">Vikramshila</label></li>
+            <li><input type="checkbox" id="kesaria"> <label for="kesaria">Kesaria</label></li>
+            <li><input type="checkbox" id="pawapuri"> <label for="pawapuri">Pawapuri</label></li>
+            <li><input type="checkbox" id="madhubani"> <label for="madhubani">Madhubani</label></li>
+            <li><input type="checkbox" id="bhagalpur"> <label for="bhagalpur">Bhagalpur</label></li>
+            <li><input type="checkbox" id="sitamarhi"> <label for="sitamarhi">Sitamarhi</label></li>
+            <li><input type="checkbox" id="valmiki"> <label for="valmiki">Valmiki National Park</label></li>
+            <li><input type="checkbox" id="muzaffarpur"> <label for="muzaffarpur">Muzaffarpur</label></li>
+            <li><input type="checkbox" id="sherShah"> <label for="sherShah">Tomb of Sher Shah Suri</label></li>
+            <li><input type="checkbox" id="jalMandir"> <label for="jalMandir">Jal Mandir</label></li>
+            <li><input type="checkbox" id="navlakha"> <label for="navlakha">Navlakha Palace</label></li>
+            <li><input type="checkbox" id="mundeshwari"> <label for="mundeshwari">Mundeshwari Temple</label></li>
+            <li><input type="checkbox" id="lauriya"> <label for="lauriya">Lauriya Nandangarh</label></li>
+            <li><input type="checkbox" id="mahabodhi"> <label for="mahabodhi">Mahabodhi Temple</label></li>
+            <li><input type="checkbox" id="corbett"> <label for="corbett">Jim Corbett National Park</label></li>
+        </ul>
 
-    <input type="checkbox" id="jharkhand" name="east" value="Jharkhand">
-    <label for="jharkhand">Jharkhand</label><br>
 
-    <input type="checkbox" id="westbengal" name="east" value="West Bengal">
-    <label for="westbengal">West Bengal</label><br>
+        <input type="checkbox" id="jharkhand" name="northeast" value="jharkhand">
+        <label for="jharkhand">jharkhand</label><br>
+        <ul>
+            <li><input type="checkbox" id="deoghar"> <label for="deoghar">Deoghar</label></li>
+            <li><input type="checkbox" id="jamshedpur"> <label for="jamshedpur">Jamshedpur</label></li>
+            <li><input type="checkbox" id="ranchi"> <label for="ranchi">Ranchi</label></li>
+            <li><input type="checkbox" id="betla"> <label for="betla">Betla National Park</label></li>
+            <li><input type="checkbox" id="netarhat"> <label for="netarhat">Netarhat</label></li>
+            <li><input type="checkbox" id="hazaribagh"> <label for="hazaribagh">Hazaribagh</label></li>
+            <li><input type="checkbox" id="bokaro"> <label for="bokaro">Bokaro</label></li>
+            <li><input type="checkbox" id="palamu"> <label for="palamu">Palamu</label></li>
+            <li><input type="checkbox" id="ghatshila"> <label for="ghatshila">Ghatshila</label></li>
+            <li><input type="checkbox" id="shikharji"> <label for="shikharji">Shikharji</label></li>
+            <li><input type="checkbox" id="dasham"> <label for="dasham">Dasham Falls</label></li>
+            <li><input type="checkbox" id="jubilee"> <label for="jubilee">Jubilee Park</label></li>
+            <li><input type="checkbox" id="baidyanath"> <label for="baidyanath">Baba Baidyanath Temple</label></li>
+            <li><input type="checkbox" id="patratu"> <label for="patratu">Patratu Valley</label></li>
+            <li><input type="checkbox" id="jonha"> <label for="jonha">Jonha Falls</label></li>
+        </ul>
 
-    <input type="checkbox" id="odisha" name="east" value="Odisha">
-    <label for="odisha">Odisha</label><br>
 
-    <input type="checkbox" id="chhattisgarh" name="east" value="Chhattisgarh">
-    <label for="chhattisgarh">Chhattisgarh</label><br>
+        <input type="checkbox" id="westbengal" name="northeast" value="westbengal">
+        <label for="westbengal">westbengal</label><br>
+        <ul>
+            <li><input type="checkbox" id="kolkata"> <label for="kolkata">Kolkata</label></li>
+            <li><input type="checkbox" id="darjeeling"> <label for="darjeeling">Darjeeling</label></li>
+            <li><input type="checkbox" id="sundarbans"> <label for="sundarbans">Sundarbans</label></li>
+            <li><input type="checkbox" id="siliguri"> <label for="siliguri">Siliguri</label></li>
+            <li><input type="checkbox" id="mirik"> <label for="mirik">Mirik</label></li>
+            <li><input type="checkbox" id="digha"> <label for="digha">Digha</label></li>
+            <li><input type="checkbox" id="dooars"> <label for="dooars">Dooars</label></li>
+            <li><input type="checkbox" id="kalimpong"> <label for="kalimpong">Kalimpong</label></li>
+            <li><input type="checkbox" id="murshidabad"> <label for="murshidabad">Murshidabad</label></li>
+            <li><input type="checkbox" id="kurseong"> <label for="kurseong">Kurseong</label></li>
+            <li><input type="checkbox" id="lataguri"> <label for="lataguri">Lataguri</label></li>
+            <li><input type="checkbox" id="bankura"> <label for="bankura">Bankura</label></li>
+            <li><input type="checkbox" id="coochbehar"> <label for="coochbehar">Cooch Behar</label></li>
+            <li><input type="checkbox" id="lolegaon"> <label for="lolegaon">Lolegaon</label></li>
+            <li><input type="checkbox" id="bardhaman"> <label for="bardhaman">Bardhaman</label></li>
+            <li><input type="checkbox" id="mukutmanipur"> <label for="mukutmanipur">Mukutmanipur</label></li>
+            <li><input type="checkbox" id="malda"> <label for="malda">Malda</label></li>
+            <li><input type="checkbox" id="shankarpur"> <label for="shankarpur">Shankarpur</label></li>
+            <li><input type="checkbox" id="mayapur"> <label for="mayapur">Mayapur</label></li>
+            <li><input type="checkbox" id="purulia"> <label for="purulia">Purulia</label></li>
+            <li><input type="checkbox" id="jalpaiguri"> <label for="jalpaiguri">Jalpaiguri</label></li>
+            <li><input type="checkbox" id="jaldhaka"> <label for="jaldhaka">Jaldhaka</label></li>
+            <li><input type="checkbox" id="chandannagar"> <label for="chandannagar">Chandannagar</label></li>
+            <li><input type="checkbox" id="howrah"> <label for="howrah">Howrah</label></li>
+            <li><input type="checkbox" id="belurmath"> <label for="belurmath">Belur Math</label></li>
+        </ul>
 
-    <input type="checkbox" id="arunachalpradesh" name="northeast" value="Arunachal Pradesh">
-    <label for="arunachalpradesh">Arunachal Pradesh</label><br>
 
-    <input type="checkbox" id="assam" name="northeast" value="Assam">
-    <label for="assam">Assam</label><br>
+        <input type="checkbox" id="orissa" name="northeast" value="orissa">
+        <label for="orissa">orissa</label><br>
+        <ul>
+            <li><input type="checkbox" id="puriBeach"> <label for="puriBeach">Puri Beach</label></li>
+            <li><input type="checkbox" id="bhubaneshwar"> <label for="bhubaneshwar">Bhubaneshwar</label></li>
+            <li><input type="checkbox" id="konark"> <label for="konark">Konark</label></li>
+            <li><input type="checkbox" id="chilikaLake"> <label for="chilikaLake">Chilika Lake</label></li>
+            <li><input type="checkbox" id="caves"> <label for="caves">Udayagiri and Khandagiri Caves</label></li>
+            <li><input type="checkbox" id="cuttack"> <label for="cuttack">Cuttack</label></li>
+            <li><input type="checkbox" id="sambalpur"> <label for="sambalpur">Sambalpur</label></li>
+            <li><input type="checkbox" id="chandipur"> <label for="chandipur">Chandipur</label></li>
+            <li><input type="checkbox" id="jeypore"> <label for="jeypore">Jeypore</label></li>
+            <li><input type="checkbox" id="dhauli"> <label for="dhauli">Dhauli</label></li>
+            <li><input type="checkbox" id="rayagada"> <label for="rayagada">Rayagada</label></li>
+            <li><input type="checkbox" id="jagannath"> <label for="jagannath">Sri Jagannath Puri Temple</label></li>
+            <li><input type="checkbox" id="lingaraj"> <label for="lingaraj">Lingaraja Temple</label></li>
+            <li><input type="checkbox" id="rathurajpur"> <label for="rathurajpur">Raghurajpur Artist Village</label>
+            </li>
+        </ul>
 
-    <input type="checkbox" id="manipur" name="northeast" value="Manipur">
-    <label for="manipur">Manipur</label><br>
 
-    <input type="checkbox" id="mizoram" name="northeast" value="Mizoram">
-    <label for="mizoram">Mizoram</label><br>
+        <input type="checkbox" id="chattisgarh" name="northeast" value="chattisgarh">
+        <label for="chattisgarh">chattisgarh</label><br>
+        <ul>
+            <li><input type="checkbox" id="raipur"> <label for="raipur">Raipur</label></li>
+            <li><input type="checkbox" id="barnawapara"> <label for="barnawapara">Barnawapara Wildlife Sanctuary</label>
+            </li>
+            <li><input type="checkbox" id="jagdalpur"> <label for="jagdalpur">Jagdalpur</label></li>
+            <li><input type="checkbox" id="charreMarre"> <label for="charreMarre">Charre Marre Waterfalls</label></li>
+            <li><input type="checkbox" id="sirpur"> <label for="sirpur">Sirpur</label></li>
+            <li><input type="checkbox" id="dhamtari"> <label for="dhamtari">Dhamtari</label></li>
+            <li><input type="checkbox" id="chitrakote"> <label for="chitrakote">Chitrakote Falls</label></li>
+            <li><input type="checkbox" id="dantewada"> <label for="dantewada">Dantewada</label></li>
+            <li><input type="checkbox" id="guruGhasidas"> <label for="guruGhasidas">Guru Ghasidas National Park</label>
+            </li>
+            <li><input type="checkbox" id="ibrahimRoza"> <label for="ibrahimRoza">Ibrahim Roza</label></li>
+            <li><input type="checkbox" id="ghatrani"> <label for="ghatrani">Ghatrani Waterfalls</label></li>
+            <li><input type="checkbox" id="centralPark"> <label for="centralPark">Naya Raipur Central Park</label></li>
+            <li><input type="checkbox" id="bhoramdeo"> <label for="bhoramdeo">Bhoramdeo Temple</label></li>
+            <li><input type="checkbox" id="jatmai"> <label for="jatmai">Jatmai Temple</label></li>
+        </ul>
 
-    <input type="checkbox" id="meghalaya" name="northeast" value="Meghalaya">
-    <label for="meghalaya">Meghalaya</label><br>
 
-    <input type="checkbox" id="nagaland" name="northeast" value="Nagaland">
-    <label for="nagaland">Nagaland</label><br>
+        <input type="checkbox" id="arunachalpradesh" name="northeast" value="Arunachal Pradesh">
+        <label for="arunachalpradesh">Arunachal Pradesh</label><br>
+        <ul>
+            <li><input type="checkbox" id="tawang"> <label for="tawang">Tawang</label></li>
+            <li><input type="checkbox" id="dirang"> <label for="dirang">Dirang</label></li>
+            <li><input type="checkbox" id="bomdila"> <label for="bomdila">Bomdila</label></li>
+            <li><input type="checkbox" id="anini"> <label for="anini">Anini</label></li>
+            <li><input type="checkbox" id="bhalukpong"> <label for="bhalukpong">Bhalukpong</label></li>
+            <li><input type="checkbox" id="ziro"> <label for="ziro">Ziro</label></li>
+            <li><input type="checkbox" id="selaPass"> <label for="selaPass">Sela Pass</label></li>
+            <li><input type="checkbox" id="roing"> <label for="roing">Roing</label></li>
+            <li><input type="checkbox" id="itanagar"> <label for="itanagar">Itanagar</label></li>
+            <li><input type="checkbox" id="pasighat"> <label for="pasighat">Pasighat</label></li>
+            <li><input type="checkbox" id="aalo"> <label for="aalo">Aalo</label></li>
+            <li><input type="checkbox" id="nuranang"> <label for="nuranang">Nuranang Falls</label></li>
+            <li><input type="checkbox" id="tawangMonastery"> <label for="tawangMonastery">Tawang Monastery</label></li>
+            <li><input type="checkbox" id="sangti"> <label for="sangti">Sangti Valley</label></li>
+            <li><input type="checkbox" id="wakro"> <label for="wakro">Wakro</label></li>
+            <li><input type="checkbox" id="namasai"> <label for="namasai">Namasai</label></li>
+            <li><input type="checkbox" id="bumlaPass"> <label for="bumlaPass">Bumla Pass</label></li>
+            <li><input type="checkbox" id="changlang"> <label for="changlang">Changlang</label></li>
+            <li><input type="checkbox" id="damro"> <label for="damro">Damro</label></li>
+            <li><input type="checkbox" id="madhuriLake"> <label for="madhuriLake">Madhuri Lake</label></li>
+            <li><input type="checkbox" id="daporijo"> <label for="daporijo">Daporijo</label></li>
+            <li><input type="checkbox" id="gorichen"> <label for="gorichen">Gorichen Peak</label></li>
+            <li><input type="checkbox" id="jaswantGarh"> <label for="jaswantGarh">Jaswant Garh</label></li>
+            <li><input type="checkbox" id="mechuka"> <label for="mechuka">Mechuka Valley</label></li>
+        </ul>
 
-    <input type="checkbox" id="sikkim" name="northeast" value="Sikkim">
-    <label for="sikkim">Sikkim</label><br>
-    <hr>
-<input type="checkbox" id="rajasthan" name="west" value="Rajasthan">
-    <label for="rajasthan">Rajasthan</label><br>
 
-    <input type="checkbox" id="gujarat" name="west" value="Gujarat">
-    <label for="gujarat">Gujarat</label><br>
+        <input type="checkbox" id="assam" name="northeast" value="Assam">
+        <label for="assam">Assam</label><br>
+        <ul>
+            <li><input type="checkbox" id="kaziranga"> <label for="kaziranga">Kaziranga National Park</label></li>
+            <li><input type="checkbox" id="guwahati"> <label for="guwahati">Guwahati</label></li>
+            <li><input type="checkbox" id="kamakhya"> <label for="kamakhya">Maa Kamakhya Temple</label></li>
+            <li><input type="checkbox" id="majuli"> <label for="majuli">Majuli</label></li>
+            <li><input type="checkbox" id="umananda"> <label for="umananda">Umananda Island</label></li>
+            <li><input type="checkbox" id="manas"> <label for="manas">Manas National Park</label></li>
+            <li><input type="checkbox" id="dibrugarh"> <label for="dibrugarh">Dibrugarh</label></li>
+            <li><input type="checkbox" id="jorhat"> <label for="jorhat">Jorhat</label></li>
+            <li><input type="checkbox" id="hajo"> <label for="hajo">Hajo</label></li>
+            <li><input type="checkbox" id="barpeta"> <label for="barpeta">Barpeta</label></li>
+            <li><input type="checkbox" id="tezpur"> <label for="tezpur">Tezpur</label></li>
+            <li><input type="checkbox" id="sivasagar"> <label for="sivasagar">Sivasagar</label></li>
+            <li><input type="checkbox" id="dispur"> <label for="dispur">Dispur</label></li>
+            <li><input type="checkbox" id="saulkuchi"> <label for="saulkuchi">Saulkuchi</label></li>
+            <li><input type="checkbox" id="orang"> <label for="orang">Orang National Park</label></li>
+            <li><input type="checkbox" id="tirupatiBalaji"> <label for="tirupatiBalaji">Purva Tirupati Shri Balaji
+                    Temple</label></li>
+            <li><input type="checkbox" id="pobitora"> <label for="pobitora">Pobitora Wildlife Sanctuary</label></li>
+            <li><input type="checkbox" id="haflong"> <label for="haflong">Haflong</label></li>
+        </ul>
 
-    <input type="checkbox" id="maharashtra" name="west" value="Maharashtra">
-    <label for="maharashtra">Maharashtra</label><br>
 
-    <input type="checkbox" id="goa" name="west" value="Goa">
-    <label for="goa">Goa</label><br>
+        <input type="checkbox" id="manipur" name="northeast" value="Manipur">
+        <label for="manipur">Manipur</label><br>
+<ul>
+  <li><input type="checkbox" id="kanglaFort"> <label for="kanglaFort">Kangla Fort</label></li>
+  <li><input type="checkbox" id="loktakLake"> <label for="loktakLake">Loktak Lake</label></li>
+  <li><input type="checkbox" id="govindjiTemple"> <label for="govindjiTemple">Shri Govindji Temple</label></li>
+  <li><input type="checkbox" id="imphalCemetery"> <label for="imphalCemetery">Imphal War Cemetery</label></li>
+  <li><input type="checkbox" id="imphalValley"> <label for="imphalValley">Imphal Valley</label></li>
+  <li><input type="checkbox" id="chandel"> <label for="chandel">Chandel</label></li>
+  <li><input type="checkbox" id="sanamahiTemple"> <label for="sanamahiTemple">Lord Sanamahi Temple</label></li>
+  <li><input type="checkbox" id="khongjom"> <label for="khongjom">Khongjom War Memorial Complex</label></li>
+  <li><input type="checkbox" id="shahidMinar"> <label for="shahidMinar">Shahid Minar</label></li>
+</ul>
 
-    <input type="checkbox" id="madhyapradesh" name="central" value="Madhya Pradesh">
-    <label for="madhyapradesh">Madhya Pradesh</label><br>
 
-    <hr>
-    <input type="checkbox" id="jammu" name="north" value="Jammu & Kashmir">
-    <label for="jammu">Jammu & Kashmir</label><br>
+        <input type="checkbox" id="mizoram" name="northeast" value="Mizoram">
+        <label for="mizoram">Mizoram</label><br>
+<ul>
+  <li><input type="checkbox" id="aizwal"> <label for="aizwal">Aizwal</label></li>
+  <li><input type="checkbox" id="lunglei"> <label for="lunglei">Lunglei</label></li>
+  <li><input type="checkbox" id="champhai"> <label for="champhai">Champhai</label></li>
+  <li><input type="checkbox" id="mamit"> <label for="mamit">Mamit</label></li>
+  <li><input type="checkbox" id="saiha"> <label for="saiha">Saiha</label></li>
+  <li><input type="checkbox" id="durtlangHills"> <label for="durtlangHills">Durtlang Hills</label></li>
+  <li><input type="checkbox" id="reiekVillage"> <label for="reiekVillage">Reiek Heritage Village</label></li>
+  <li><input type="checkbox" id="solomons"> <label for="solmons">Solmons</label></li>
+  <li><input type="checkbox" id="phulpuiGrave"> <label for="phulpuiGrave">Phulpui Grave</label></li>
+  <li><input type="checkbox" id="vantawngFalls"> <label for="vantawngFalls">Vantawng Falls</label></li>
+  <li><input type="checkbox" id="kvParadise"> <label for="kvParadise">KV Paradise</label></li>
+  <li><input type="checkbox" id="tuirihiauFalls"> <label for="tuirihiauFalls">Tuirihiau Falls</label></li>
+  <li><input type="checkbox" id="phawngpuiPeak"> <label for="phawngpuiPeak">Phawngpui Peak</label></li>
+  <li><input type="checkbox" id="lamsialPuk"> <label for="lamsialPuk">Lamsial Puk</label></li>
+</ul>
 
-    <input type="checkbox" id="himachal" name="north" value="Himachal Pradesh">
-    <label for="himachal">Himachal Pradesh</label><br>
 
-    <input type="checkbox" id="punjab" name="north" value="Punjab">
-    <label for="punjab">Punjab</label><br>
+        <input type="checkbox" id="meghalaya" name="northeast" value="Meghalaya">
+        <label for="meghalaya">Meghalaya</label><br>
+        <ul>
+            <li><input type="checkbox" id="shillong"> <label for="shillong">Shillong</label></li>
+            <li><input type="checkbox" id="rootBridge"> <label for="rootBridge">Double Decker Living Root Bridge</label>
+            </li>
+            <li><input type="checkbox" id="dawki"> <label for="dawki">Dawki</label></li>
+            <li><input type="checkbox" id="mawsynram"> <label for="mawsynram">Mawsynram</label></li>
+            <li><input type="checkbox" id="umngotRiver"> <label for="umngotRiver">Umngot River</label></li>
+            <li><input type="checkbox" id="krangSuri"> <label for="krangSuri">Krang Suri Falls</label></li>
+            <li><input type="checkbox" id="nohsngithiangFalls"> <label for="nohsngithiangFalls">Nohsngithiang
+                    Falls</label></li>
+            <li><input type="checkbox" id="jowai"> <label for="jowai">Jowai</label></li>
+            <li><input type="checkbox" id="mawsmaiCaves"> <label for="mawsmaiCaves">Mawsmai Caves</label></li>
+            <li><input type="checkbox" id="wardsLake"> <label for="wardsLake">Wards Lake</label></li>
+            <li><input type="checkbox" id="nongpoh"> <label for="nongpoh">Nongpoh</label></li>
+            <li><input type="checkbox" id="laitlum"> <label for="laitlum">Laitlum Canyons</label></li>
+            <li><input type="checkbox" id="umiamLake"> <label for="umiamLake">Umiam Lake</label></li>
+            <li><input type="checkbox" id="nohkalikai"> <label for="nohkalikai">Nohkalikai Falls</label></li>
+            <li><input type="checkbox" id="mawphlang"> <label for="mawphlang">Mawphlang Sacred Forest</label></li>
+            <li><input type="checkbox" id="gardenOfCaves"> <label for="gardenOfCaves">Garden of Caves</label></li>
+            <li><input type="checkbox" id="khasiHills"> <label for="khasiHills">Khasi Hills</label></li>
+            <li><input type="checkbox" id="sevenSisters"> <label for="sevenSisters">Seven Sisters Falls</label></li>
+            <li><input type="checkbox" id="kremLiatPrah"> <label for="kremLiatPrah">Krem Liat Prah Cave</label></li>
+            <li><input type="checkbox" id="arwahCave"> <label for="arwahCave">Arwah Cave</label></li>
+        </ul>
 
-    <input type="checkbox" id="haryana" name="north" value="Haryana">
-    <label for="haryana">Haryana</label><br>
 
-    <input type="checkbox" id="uttarakhand" name="north" value="Uttarakhand">
-    <label for="uttarakhand">Uttarakhand</label><br>
+        <input type="checkbox" id="nagaland" name="northeast" value="Nagaland">
+        <label for="nagaland">Nagaland</label><br>
+        <ul>
+            <li><input type="checkbox" id="dzukouValley"> <label for="dzukouValley">Dzukou Valley</label></li>
+            <li><input type="checkbox" id="khonoma"> <label for="khonoma">Khonoma Village</label></li>
+            <li><input type="checkbox" id="kohimaWarCemetery"> <label for="kohimaWarCemetery">Kohima War
+                    Cemetery</label></li>
+            <li><input type="checkbox" id="dzuleke"> <label for="dzuleke">Dzuleke Village</label></li>
+            <li><input type="checkbox" id="mokokchung"> <label for="mokokchung">Mokokchung</label></li>
+            <li><input type="checkbox" id="dimapur"> <label for="dimapur">Dimapur</label></li>
+            <li><input type="checkbox" id="phek"> <label for="phek">Phek</label></li>
+            <li><input type="checkbox" id="touphema"> <label for="touphema">Touphema Village</label></li>
+            <li><input type="checkbox" id="shilloiLake"> <label for="shilloiLake">Shilloi Lake</label></li>
+            <li><input type="checkbox" id="nagaHeritage"> <label for="nagaHeritage">Naga Heritage Village</label></li>
+            <li><input type="checkbox" id="pfutsero"> <label for="pfutsero">Pfutsero</label></li>
+            <li><input type="checkbox" id="pulieBadze"> <label for="pulieBadze">Pulie Badze</label></li>
+            <li><input type="checkbox" id="japfuPeak"> <label for="japfuPeak">Japfu Peak</label></li>
+            <li><input type="checkbox" id="mon"> <label for="mon">Mon</label></li>
+            <li><input type="checkbox" id="wohkha"> <label for="wohkha">Wohkha</label></li>
+            <li><input type="checkbox" id="tuensang"> <label for="tuensang">Tuensang</label></li>
+        </ul>
 
-    <input type="checkbox" id="uttarpradesh" name="north" value="Uttar Pradesh">
-    <label for="uttarpradesh">Uttar Pradesh</label><br>
-<hr>
-<input type="checkbox" id="andhrapradesh" name="south" value="Andhra Pradesh">
-    <label for="andhrapradesh">Andhra Pradesh</label><br>
 
-    <input type="checkbox" id="telangana" name="south" value="Telangana">
-    <label for="telangana">Telangana</label><br>
+        <input type="checkbox" id="sikkim" name="northeast" value="Sikkim">
+        <label for="sikkim">Sikkim</label><br>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
 
-    <input type="checkbox" id="karnataka" name="south" value="Karnataka">
-    <label for="karnataka">Karnataka</label><br>
+        </ul>
+        <hr>
+        <input type="checkbox" id="rajasthan" name="west" value="Rajasthan">
+        <label for="rajasthan">Rajasthan</label><br>
+        <ul>
+            <li><input type="checkbox" id="jaipur"> <label for="jaipur">Jaipur</label></li>
+            <li><input type="checkbox" id="amerFort"> <label for="amerFort">Amer Fort</label></li>
+            <li><input type="checkbox" id="cityPalace"> <label for="cityPalace">City Palace</label></li>
+            <li><input type="checkbox" id="udaipur"> <label for="udaipur">Udaipur</label></li>
+            <li><input type="checkbox" id="jodhpur"> <label for="jodhpur">Jodhpur</label></li>
+            <li><input type="checkbox" id="mehrangarh"> <label for="mehrangarh">Mehrangarh Fort</label></li>
+            <li><input type="checkbox" id="lakePichola"> <label for="lakePichola">Lake Pichola</label></li>
+            <li><input type="checkbox" id="jaisalmer"> <label for="jaisalmer">Jaisalmer</label></li>
+            <li><input type="checkbox" id="hawaMahal"> <label for="hawaMahal">Hawa Mahal</label></li>
+            <li><input type="checkbox" id="jantarMantar"> <label for="jantarMantar">Jantar Mantar</label></li>
+            <li><input type="checkbox" id="mountAbu"> <label for="mountAbu">Mount Abu</label></li>
+            <li><input type="checkbox" id="ranthambore"> <label for="ranthambore">Ranthambore</label></li>
+            <li><input type="checkbox" id="pushkar"> <label for="pushkar">Pushkar</label></li>
+            <li><input type="checkbox" id="kumbhalgarh"> <label for="kumbhalgarh">Kumbhalgarh</label></li>
+            <li><input type="checkbox" id="ajmer"> <label for="ajmer">Ajmer</label></li>
+            <li><input type="checkbox" id="bhangarhFort"> <label for="bhangarhFort">Bhangarh Fort</label></li>
+            <li><input type="checkbox" id="chittorgarh"> <label for="chittorgarh">Chittorgarh</label></li>
+            <li><input type="checkbox" id="eklingjiTemple"> <label for="eklingjiTemple">Eklingji Temple</label></li>
+            <li><input type="checkbox" id="bikaner"> <label for="bikaner">Bikaner</label></li>
+            <li><input type="checkbox" id="bharatpur"> <label for="bharatpur">Bharatpur</label></li>
+            <li><input type="checkbox" id="neemrana"> <label for="neemrana">Neemrana</label></li>
+            <li><input type="checkbox" id="alwar"> <label for="alwar">Alwar</label></li>
+            <li><input type="checkbox" id="shekhawati"> <label for="shekhawati">Shekhawati</label></li>
+            <li><input type="checkbox" id="bundi"> <label for="bundi">Bundi</label></li>
+            <li><input type="checkbox" id="ranakpur"> <label for="ranakpur">Ranakpur</label></li>
+            <li><input type="checkbox" id="nathdwara"> <label for="nathdwara">Nathdwara</label></li>
+            <li><input type="checkbox" id="fatehpur"> <label for="fatehpur">Fatehpur</label></li>
+            <li><input type="checkbox" id="khimsar"> <label for="khimsar">Khimsar</label></li>
+            <li><input type="checkbox" id="nawalgarh"> <label for="nawalgarh">Nawalgarh</label></li>
+            <li><input type="checkbox" id="rajsamand"> <label for="rajsamand">Rajsamand</label></li>
+            <li><input type="checkbox" id="jhunjhunu"> <label for="jhunjhunu">Jhunjhunu</label></li>
+            <li><input type="checkbox" id="mandawa"> <label for="mandawa">Mandawa</label></li>
+            <li><input type="checkbox" id="osian"> <label for="osian">Osian</label></li>
+            <li><input type="checkbox" id="sikar"> <label for="sikar">Sikar</label></li>
+            <li><input type="checkbox" id="deeg"> <label for="deeg">Deeg</label></li>
+            <li><input type="checkbox" id="kota"> <label for="kota">Kota</label></li>
+            <li><input type="checkbox" id="kesroli"> <label for="kesroli">Kesroli</label></li>
+            <li><input type="checkbox" id="amberPalace"> <label for="amberPalace">Amber Palace</label></li>
+            <li><input type="checkbox" id="sheeshMahal"> <label for="sheeshMahal">Sheesh Mahal</label></li>
+            <li><input type="checkbox" id="jalMahal"> <label for="jalMahal">Jal Mahal</label></li>
+        </ul>
 
-    <input type="checkbox" id="tamilnadu" name="south" value="Tamil Nadu">
-    <label for="tamilnadu">Tamil Nadu</label><br>
 
-    <input type="checkbox" id="kerala" name="south" value="Kerala">
-    <label for="kerala">Kerala</label><br>
-</form>
+        <input type="checkbox" id="gujarat" name="west" value="Gujarat">
+        <label for="gujarat">Gujarat</label><br>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>
+
+        <input type="checkbox" id="maharashtra" name="west" value="Maharashtra">
+        <label for="maharashtra">Maharashtra</label><br>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>
+
+        <input type="checkbox" id="goa" name="west" value="Goa">
+        <label for="goa">Goa</label><br>
+
+        <input type="checkbox" id="madhyapradesh" name="central" value="Madhya Pradesh">
+        <label for="madhyapradesh">Madhya Pradesh</label><br>
+
+        <hr>
+        <input type="checkbox" id="jammu" name="north" value="Jammu & Kashmir">
+        <label for="jammu">Jammu & Kashmir</label><br>
+
+        <input type="checkbox" id="himachal" name="north" value="Himachal Pradesh">
+        <label for="himachal">Himachal Pradesh</label><br>
+
+        <input type="checkbox" id="punjab" name="north" value="Punjab">
+        <label for="punjab">Punjab</label><br>
+
+        <input type="checkbox" id="haryana" name="north" value="Haryana">
+        <label for="haryana">Haryana</label><br>
+
+        <input type="checkbox" id="uttarakhand" name="north" value="Uttarakhand">
+        <label for="uttarakhand">Uttarakhand</label><br>
+
+        <input type="checkbox" id="uttarpradesh" name="north" value="Uttar Pradesh">
+        <label for="uttarpradesh">Uttar Pradesh</label><br>
+        <hr>
+        <input type="checkbox" id="andhrapradesh" name="south" value="Andhra Pradesh">
+        <label for="andhrapradesh">Andhra Pradesh</label><br>
+
+        <input type="checkbox" id="telangana" name="south" value="Telangana">
+        <label for="telangana">Telangana</label><br>
+
+        <input type="checkbox" id="karnataka" name="south" value="Karnataka">
+        <label for="karnataka">Karnataka</label><br>
+
+        <input type="checkbox" id="tamilnadu" name="south" value="Tamil Nadu">
+        <label for="tamilnadu">Tamil Nadu</label><br>
+
+        <input type="checkbox" id="kerala" name="south" value="Kerala">
+        <label for="kerala">Kerala</label><br>
+    </form>
 
 </body>
 

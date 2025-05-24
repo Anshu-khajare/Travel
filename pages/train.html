@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Train Booking</title>
 </head>
+
 <body>
-    
+    <hr>
+    <nav align="center">
+        <a href="./../index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./about.html">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./places.html">PLACES</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./goals.html">GOALS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./books.html">BOOKS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./map.html">MAP</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="booking"></label>
+        <select id="booking" onchange="location = this.value;">
+            <option value="">BOOKING</option>
+            <option value="./flight.html">Flight</option>
+            <option value="./buses.html">Buses</option>
+            <option value="./train.html">Train</option>
+            <option value="./car.html">Car</option>
+        </select>
+    </nav>
+    <hr>
 </body>
+
 </html>
